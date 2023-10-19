@@ -16,13 +16,13 @@ form.addEventListener("submit", (e) => {
         results.innerHTML = "Enter Valid weight number";
     } else {
         results.innerHTML = `<span>${bmi}</span>`  
-        if(results < 18.5) {
-            resultsInfo.innerHTML = "You are in under weight range"
-        } else if(results >= 18.6 && results < 24.9) {
-            resultsInfo.innerHTML = "You are in normal range"
-        } else {
-            resultsInfo.innerHTML = "You were in over weight range"
-        }
+        // if(results < 18.5) {
+        //     resultsInfo.innerHTML = "You are in under weight range"
+        // } else if(results >= 18.6 && results < 24.9) {
+        //     resultsInfo.innerHTML = "You are in normal range"
+        // } else {
+        //     resultsInfo.innerHTML = "You were in over weight range"
+        // }
     } 
 
 })
