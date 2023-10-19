@@ -1,5 +1,4 @@
 const form = document.querySelector("form");
-const reset = documnet.querySelector(".reset")
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
